@@ -1,0 +1,24 @@
+Requirements
+
+Python 3.7+
+
+No external libraries required (uses only built-in modules: heapq)
+
+2️ Usage
+
+Run the program from a terminal:
+
+python main.py
+Example Input
+Enter the initial puzzle state (9 numbers; 0 is blank).
+You can enter 9 numbers one-per-line or all on one line:
+1 2 3 4 0 6 7 5 8
+
+Enter the goal puzzle state (9 numbers; 0 is blank).
+You can enter 9 numbers one-per-line or all on one line:
+1 2 3 4 5 6 7 8 0
+
+Select the heuristic function:
+1. Misplaced Tiles
+2. Manhattan Distance
+> 2
